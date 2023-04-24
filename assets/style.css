@@ -1,3 +1,7 @@
+body{
+    background-color:aliceblue;
+}
+
 .top-div{
     display:flex ;
     justify-content: space-between;
@@ -16,6 +20,14 @@
 }
 
 .bigrow{
+    display: flex ;
+    flex-direction: row ;
+    border-color: black ;
+    border-style:solid ;
+    border-radius:15px ;
+    padding:25px ;
+}
+.fullrow{ 
     display: flex ;
     flex-direction: row ;
     border-color: black ;
